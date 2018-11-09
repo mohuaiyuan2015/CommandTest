@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:id="@+id/commandEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入命令"
+        />
+
+    <Button
+        android:id="@+id/executeCmdBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="execute Cmd"
+        android:textAllCaps="false"
+        />
+
+    <TextView
+        android:id="@+id/resultTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+</LinearLayout>
